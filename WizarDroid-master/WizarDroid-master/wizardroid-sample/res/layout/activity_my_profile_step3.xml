@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancerMedicationForm"
+            android:text="@string/title_activity_my_profile_step3"/>
+ 
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drugsDuringTreatment"
+            android:hint="@string/hint_drugs_taken_during_treatment"/>
+    
+       <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentMedication"
+            android:hint="@string/hint_drugs_taken_now"/>
+       
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/allergies"
+            android:hint="@string/hint_allergies"/>
+          
+           <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pharmacyName"
+            android:hint="@string/hint_pharmacy_name"/>
+             
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pharmacyLocation"
+            android:hint="@string/hint_pharmacy_location"/>
+          
+</LinearLayout>

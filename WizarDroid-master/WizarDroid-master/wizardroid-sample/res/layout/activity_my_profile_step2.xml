@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              
+   		 <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/myProfileStep2Title"
+            android:text="@string/title_activity_my_profile_step2"/>
+
+    
+     	<EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/biopsyDate"
+            android:hint="@string/biopsy_date"
+        	android:inputType="date"
+             />
+    
+       <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/surgeryDate"
+            android:hint="@string/surgery_date"
+            android:inputType="date"/>
+       
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiationDate"
+            android:hint="@string/radiation_therapy_date"
+            android:inputType="date"/>
+          
+             <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chemotherapyDate"
+            android:hint="@string/chemotherapy_date"
+            android:inputType="date"/>
+             
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/geneticTestDate"
+            android:hint="@string/genetic_test_date"
+            android:inputType="date"
+            />
+          
+    
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancerHealthcareProviderForm"
+            android:text="@string/title_activity_my_profile_step4"/>
+ 
+    	  <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/primaryCarePhysician"
+            android:hint="@string/hint_primaryCarePhysician"/>
+    
+       	  <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/oncologist"
+            android:hint="@string/hint_oncologist"/>
+       
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/surgeon"
+            android:hint="@string/hint_surgeon"/>
+          
+           <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/OBGYN"
+            android:hint="@string/hint_OBGYN"/>
+             
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiologist"
+            android:hint="@string/hint_radiologist"/>
+          
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancerCareCenter"
+            android:hint="@string/hint_cancerCareCenterName"/>
+          
+          <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/supportGroupContact"
+            android:hint="@string/hint_supportGroupContact"/>
+          
+</LinearLayout>

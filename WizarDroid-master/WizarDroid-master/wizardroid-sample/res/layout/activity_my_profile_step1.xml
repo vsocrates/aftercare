@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:text="@string/personal_info_form_start"/>
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancerDiagnosisForm"
+            android:text="@string/title_activity_my_profile_step1"/>
+ 
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancerType"
+            android:hint="@string/cancer_type"/>
+    
+       <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancerLocation"
+            android:hint="@string/cancer_location"/>
+       
+       <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/estrogenReceptorLevel"
+            android:hint="@string/cancer_estrogen_receptor"/>
+          
+       <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progesteroneReceptorLevel"
+            android:hint="@string/cancer_progesterone_receptor"/>
+             
+       <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/her2Level"
+            android:hint="@string/cancer_Her2"/>
+              
+    
+</LinearLayout>
