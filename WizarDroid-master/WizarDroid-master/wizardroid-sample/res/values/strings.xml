@@ -18,8 +18,13 @@
     <string name="base_camp_image_description">Base Camp Image Button</string>
     <string name="myProfileDescription">My Profile Page Image Button</string>
     <string name="myPersonalInfoDescription">My Personal Info and Treatment Image Button</string>
+    <string name="calendarDescription">Calendar Button</string>
+    <string name="addAppointmentDescription">Add Event to Calendar</string>
+    <string name="viewCalendarDescription">View Calendar</string>
     <string name="title_activity_my_personal_info">MyPersonalInfo</string>
     <string name="title_activity_my_profile_and_treatment">My Profile And Treatment</string>
+    <string name="title_activity_calendar">Calendar Portion</string>
+    <string name="title_activity_calendar_add_appointment">Add an appointment to the calendar</string>
     <string name="title_activity_personal_info_step1">PersonalInfoStep1</string>
     <string name="personal_info_form_start">Please input the following Personal Information for your record keeping.</string>
     <string name="my_profile_form_start">Please input the following Treatment and Diagnosis Information for record keeping.</string>
@@ -49,6 +54,7 @@
     <string name="go_next">Next</string>
     <string name="spaceholder"></string>
     <string name="title_activity_my_profile_step3">My Profile: Medication</string>
+    <string name="title_activity_calendar_step1">Calendar: Intro</string>
     <string name="hint_drugs_taken_during_treatment">Drugs Taken During Treatment</string>
     <string name="hint_drugs_taken_now">Current Medication</string>
     <string name="hint_allergies">Allergies</string>
@@ -67,4 +73,9 @@
 	<string name="email_as_attachment">Email My Profile</string>
 	<string name="title_my_profile_summary">Summary of My Profile</string>
 	<string name="hint_review_info">Please Review the Following Information</string>
+	<string name="appointment_title">Who will you see be seeing?</string>
+	<string name="appointment_location">Where is the appointment?</string>
+	<string name="appointment_date">What is the date of the appointment?</string>
+	<string name="appointment_start_time">What time does the appointment start?</string>
+	<string name="appointment_end_time">What time does the appointment end?</string>
 </resources>

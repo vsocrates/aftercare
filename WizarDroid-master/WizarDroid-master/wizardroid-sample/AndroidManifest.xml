@@ -47,6 +47,22 @@
                 android:value="com.vsocrates.aftercare.BaseCamp" />
         </activity>
         <activity
+            android:name="com.vsocrates.aftercare.calendar.Calendar"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName="com.vsocrates.aftercare.BaseCamp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vsocrates.aftercare.BaseCamp" />
+        </activity>
+        <activity
+            android:name="com.vsocrates.aftercare.calendar.CalendarAddAppointment"
+            android:label="@string/title_activity_calendar_add_appointment"
+            android:parentActivityName="com.vsocrates.aftercare.calendar.Calendar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vsocrates.aftercare.BaseCamp" />
+        </activity>
+        <activity
             android:name="com.vsocrates.aftercare.personalinfo.PersonalInfoStep1"
             android:label="@string/title_activity_personal_info_step1"
             android:parentActivityName="com.vsocrates.aftercare.personalinfo.MyPersonalInfo" >
@@ -117,6 +133,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.vsocrates.aftercare.myprofileandtreatment.MyProfile" />
+        </activity>
+        <activity
+            android:name="com.vsocrates.aftercare.calendar.CalendarStep1"
+            android:label="@string/title_activity_calendar_step1"
+            android:parentActivityName="com.vsocrates.aftercare.calendar.Calendar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vsocrates.aftercare.Calendar" />
         </activity>
     </application>
 

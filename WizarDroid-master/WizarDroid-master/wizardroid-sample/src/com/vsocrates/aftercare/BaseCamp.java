@@ -4,6 +4,7 @@ import org.codepond.android.wizardroid.R;
 import org.codepond.android.wizardroid.R.layout;
 import org.codepond.android.wizardroid.R.menu;
 
+import com.vsocrates.aftercare.calendar.Calendar;
 import com.vsocrates.aftercare.main.MainActivity;
 import com.vsocrates.aftercare.myprofileandtreatment.*;
 import com.vsocrates.aftercare.personalinfo.*;
@@ -24,6 +25,7 @@ public class BaseCamp extends Activity {
 	
 	ImageButton myPersonalInfoImageButton;
 	ImageButton myProfileImageButton;
+	ImageButton calendarImageButton;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class BaseCamp extends Activity {
 				
 	myPersonalInfoImageButton = (ImageButton) findViewById(R.id.personalInfoImageButton);
 	myProfileImageButton = (ImageButton) findViewById(R.id.myProfileImageButton);
+	calendarImageButton = (ImageButton) findViewById(R.id.calendarImageButton);
 
 	
 	}
@@ -44,12 +47,16 @@ public class BaseCamp extends Activity {
 		BaseCamp.this.startActivity(basCampIntent1);
 	}
 	
-	
-	
 	public void myProfileClick(View v)
 	{
 		Intent basCampIntent2 = new Intent(v.getContext(), MyProfile.class);
 		BaseCamp.this.startActivity(basCampIntent2);
+	}
+	
+	public void calendarClick(View v)
+	{
+		Intent basCampIntent3 = new Intent(v.getContext(), Calendar.class);
+		BaseCamp.this.startActivity(basCampIntent3);
 	}
 	
 	/**

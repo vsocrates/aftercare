@@ -27,6 +27,15 @@
         android:contentDescription="@string/myProfileDescription"
         android:onClick="myProfileClick"
         />
-    
+
+      <ImageButton
+          android:id="@+id/calendarImageButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/personalInfoImageButton"
+          android:layout_below="@+id/personalInfoImageButton"
+          android:contentDescription="@string/calendarDescription"
+          android:onClick="calendarClick"
+          android:src="@drawable/calendar" />
 
 </RelativeLayout>
